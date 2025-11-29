@@ -1,13 +1,14 @@
-
-import React from 'react'
+import Body from "./components/Body";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 function App() {
-  
-
   return (
     <>
-    <h1 className="text-center text-red-300">This is first react</h1>
+      <Header />
+      <Body />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
